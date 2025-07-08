@@ -35,8 +35,10 @@ class MyApp extends StatelessWidget {
                 children: const [
                   Text('Welcome to Flutter!'),
                   SizedBox(height: 8),
+                  Divider(thickness: 2, color: Colors.black),
                   Text('This is a simple app.'),
                   SizedBox(height: 8),
+                  Divider(thickness: 2, color: Colors.black),
                   Text('Enjoy coding!'),
                 ],
               ),
